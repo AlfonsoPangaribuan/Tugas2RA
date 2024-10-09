@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #004208; 
+    --secondary-color: #10631B; 
+    --accent-color: #52A55D; 
+    --light-color: #84C68C;
+}
+
+/* Desain Box Layout untuk Form dan Tabel */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-color);
+    background-image: url('https://wallpapers.com/images/high/kermit-bliss-funny-meme-ql4hnn5wevf9azc4.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    opacity: 0.9; 
+    z-index: -1; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 55px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--accent-color);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: var(--secondary-color);
+}
+
+/* Desain Tabel pada Halaman Detail */
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table th,
+.info-table td {
+    padding: 30px;
+    border: 1px solid white;
+    text-align: left;
+}
+
+.info-table th {
+    background-color: var(--secondary-color);
+}
+
+.info-table td {
+    background-color: var(--accent-color);
+}
+
+/* Selector Pseudo-Class */
+.container:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4CAF50; 
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.back-button:hover {
+    background-color: #45a049; 
+}
+
+

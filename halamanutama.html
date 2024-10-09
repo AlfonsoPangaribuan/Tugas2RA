@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 2 Pemweb RA Alfonso</title>
+    <link rel="stylesheet" href="desainlayout.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Halaman Daftar</h1>
+        <form action="form.html" method="get">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" class="input-field" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="input-field" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="input-field" required>
+            
+            <label for="phone">Telepon:</label>
+            <input type="tel" id="phone" name="phone" class="input-field" required>
+            
+            <label for="dob">Tanggal Lahir:</label>
+            <input type="date" id="dob" name="dob" class="input-field" required>
+            
+            <label for="class">Kelas Pemrograman:</label>
+            <select id="class" name="class" class="input-field" required>
+                <option value="A">A</option>
+                <option value="B">B</option>
+            </select>
+            
+            <button type="submit" class="submit-button">Daftar</button>
+        </form>
+    </div>
+</body>
+</html>
